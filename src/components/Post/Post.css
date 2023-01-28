@@ -1,0 +1,36 @@
+.Post {
+  position: relative;
+  min-width: 300px;
+  background: rgb(187, 242, 187);
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.PostIconClose {
+  position: absolute;
+  top: 0px;
+  right: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.PostIconClose:hover {
+  opacity: 80%;
+}
+
+.form-control {
+  margin-bottom: 15px;
+}
+
+.form-group {
+  width: 50vw;
+  min-width: 400px;
+}
+
+.btn {
+  margin-right: 10px;
+  margin-top: 10px;
+}
