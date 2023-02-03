@@ -24,9 +24,10 @@ const PostProvider = ({ children }) => {
   }, [posts]);
 
   const getFiltreInput = (title) => {
+    console.log(title);
     if (title) {
       const result = posts.filter((el) =>
-        el.title.toLowerCase().includes(title).toLowerCase()
+        el.title.toLowerCase().includes(title.toLowerCase())
       );
       setListOfPosts(result);
     } else {
